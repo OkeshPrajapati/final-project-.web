@@ -1,0 +1,156 @@
+/* index css */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* nav css start */
+.weblogo {
+    width: 65px;
+
+}
+
+.navbar {
+    background: white;
+    border-radius: 35px;
+}
+
+.navbar-nav li {
+    padding: 0, 10px;
+
+}
+
+.mobilelogo {
+    display: none;
+    width: 65px;
+}
+
+.navbar-nav li a {
+    color: black;
+    font-weight: 600px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.navbar-nav li a:hover {
+    background:blue;
+    color: white;
+}
+
+.navbar-nav ul button:hover {
+    background: red;
+    color: white;
+}
+
+.btnb {
+
+    background: yellow;
+    border: none;
+    border-radius: 20px;
+    margin-left: 25px;
+    width: 100px;
+}
+
+
+
+
+/* @media(max-width:768px) {
+    .mobilelogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background-color: whitesmoke
+    }
+
+    .btnb {
+    text-align: center;
+    background: #000;
+    color: #5b7ee6;
+    }
+} */
+
+/* nav css end */
+
+/* index css */
+.a {
+    width: 100%;
+
+
+}
+
+.ba {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* end index css */
+/* about css start */
+
+
+
+/* about css end */
+
+
+/* footer start css */
+
+.q {
+    width: 75%;
+    border-radius: 555px;
+}
+
+footer {
+    background: #5b7ee6;
+    padding: 50px;
+    color: #fff;
+}
+
+footer .img1234 {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.icon {
+
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 22px;
+
+}
+
+a:hover {
+    color: red;
+}
+
+/* footer end css */
+
+/* media start */
+@media(max-width:768px) {
+    .mobilelogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background-color: whitesmoke
+    }
+
+    .btnb {
+    text-align: center;
+    background: #000;
+    color: #5b7ee6;
+    }
+}
+/* media end */
